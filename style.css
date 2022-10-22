@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body{
+    background-color: lightblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: #1F2937;
+    height: 36em;
+    width: 40em;
+    margin: auto;
+    margin-top: 10em;
+}
+.container p{
+    color: white;
+    font-family: Karla, sans-serif;
+}
+.header{
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+#pass{
+    color: #4ADF86;
+    padding-left: 55px;
+}
+#gen{
+    padding-left: 55px;
+}
+#line{
+    padding-top: 15px;
+    padding-left: 55px;
+    font-weight: 200;
+    line-height: 28px;
+    font-size: 20px;
+}
+.button1 {
+    background-color: #10B981;
+    height: 3em;
+    width: 12em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 50px 0px 0px 55px;
+    font-family: Karla, sans-serif;
+    font-size: large;
+}
+select{
+    background-color: #10B981;
+    color: white;
+    height: 3em;
+    width: 12em;
+    border: none;
+    border-radius: 5px;
+    margin: 50px 0px 0px 75px;
+    font-family: Karla, sans-serif;
+    font-size: large;
+    padding-left: 20px;
+}
+
+.hz_rule{
+    margin: 50px 55px 20px 55px;
+    height: 0.1px;
+    border: 1px solid #2F3E53;
+}
+.footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+    background-color: #273549;
+    color: #10B981;
+    font-size: 20px;
+    height: 3em;
+    width: 12em;
+    border: none;
+    border-radius: 5px;
+    font-family: Karla, sans-serif;
+    user-select: all;
+}
+#reset{
+    background-color: #273549;
+    color: #10B981;
+    font-size: 20px;
+    height: 2em;
+    width: 4em;
+    border: none;
+    border-radius: 5px;
+    font-family: Karla, sans-serif;
+    user-select: none;
+    margin: 25px 0px 0px 14em;
+}
+.check_box{
+    margin: 20px 0px 0px 55px;
+    width: 32em;
+    height: 3em;
+    display: flex;
+    background-color: #10B981;
+    border-radius: 5px;
+}
+.check_box p{
+    padding-top: 14px;
+    color: white;
+    padding-right: 60px;
+    user-select: none;
+}
+input{
+    margin-left: 10px;
+    margin-right: 5px;
+}
